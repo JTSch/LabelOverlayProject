@@ -1,0 +1,30 @@
+/* for future less colour-scheme development
+@base-color: rgba(110, 27, 255, 0.5);
+@distance: 90;
+@complementary-color: spin(@base-color, @distance);
+
+.color-primary {
+    background-color: @base-color;
+}
+
+.color-complementary {
+    background-color: @complementary-color;
+}*/
+
+ html {
+		position: relative;
+}
+
+div {
+    width: 20px;
+		height:20px;
+		background-color: rgba(235, 157, 214, 0.2);
+    border: 1px solid rgba(235, 157, 214, 1);
+		border-radius: 50%;
+		position:absolute;
+	}
+	span {
+		margin-left: 25px;
+    color: #363636;
+    
+	}
